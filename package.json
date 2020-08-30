@@ -1,0 +1,44 @@
+{
+  "name": "ContentfulBlog",
+  "version": "0.1.0",
+  "license": "MIT",
+  "homepage": "",
+  "repository": {},
+  "devDependencies": {
+    "prettier": "^1.17.1",
+    "react-scripts": "^3.0.1"
+  },
+  "dependencies": {
+    "big.js": "^5.2.2",
+    "contentful": "^7.14.6",
+    "moment": "^2.27.0",
+    "netlify-cli": "^2.59.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-markdown": "^4.3.1",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "netlify deploy"
+  },
+  "prettier": {
+    "trailingComma": "all"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
